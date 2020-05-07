@@ -16,9 +16,9 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    compileOnly 'net.md-5:bungeecord-api:1.15-SNAPSHOT'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'net.md-5:bungeecord-api:1.15-SNAPSHOT'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
 
 import org.apache.tools.ant.filters.ReplaceTokens
